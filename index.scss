@@ -1,0 +1,10 @@
+// styles reset
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@import './styles/sass/abstracts/fonts';
+@import './styles/sass/abstracts/mixins';
+@import './styles/sass/layout/header';

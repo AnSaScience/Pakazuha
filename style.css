@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background: black;
+}
+header .header-wrapper {
+  width: 1400px;
+  padding: 11px 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+}
+header .header-wrapper .ua-flag-icon {
+  background-image: url("./assets/img/emojione_flag-for-ukraine.png");
+  height: 24px;
+  width: 24px;
+}
+header .header-wrapper .header-about-text {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #FCF7F0;
+}
+
+/*# sourceMappingURL=style.css.map */
