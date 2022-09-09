@@ -1,24 +1,27 @@
 header{
-background: black;
-    .header-wrapper{
-        width: 1400px;
-        padding: 11px 0;
-        margin: 0 auto;
-        @include common_flex(center,center);
-        gap:14px;
-        .ua-flag-icon{
-            background-image: url("./assets/img/emojione_flag-for-ukraine.png");
-            height: 24px;
-            width: 24px;
-        }
-        .header-about-text{
-            font-family: 'Raleway', sans-serif;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 20px;
-            letter-spacing: 0.04em;
-            color: #FCF7F0;
+    .section-wrapper{
+        padding-top: 101px;
+        width: 1190px;
+        @include common_flex(space-between,flex-start);
+    .header-img-wrapper{
+        width: 748px;
+        height: 393px;
+        padding-left: 10px;
+        position: relative;
+
+        .game-moto-img{
+            position: absolute;
+            bottom: 0;
+            right: 0;
         }
     }
+
+    .nav-bar{
+        padding-top: 20px;
+        list-style: none;
+        @include common_flex(center,flex-start);
+        flex-direction: column;
+        gap: 28px;
+    }
+}
 }

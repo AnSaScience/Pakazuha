@@ -1,10 +1,9 @@
-// styles reset
 
-*{
-    padding: 0;
-    margin: 0;
-}
-
+@import './styles/sass/base/reset';
 @import './styles/sass/abstracts/fonts';
 @import './styles/sass/abstracts/mixins';
+@import './styles/sass/components/container';
+@import './styles/sass/layout/top-section';
 @import './styles/sass/layout/header';
+@import './styles/sass/components/header-nav-link';
+

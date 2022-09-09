@@ -4,24 +4,27 @@
   margin: 0;
 }
 
-header {
+.section-wrapper {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.top-section {
   background: black;
 }
-header .header-wrapper {
-  width: 1400px;
+.top-section .top-section-wrapper {
   padding: 11px 0;
-  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 14px;
 }
-header .header-wrapper .ua-flag-icon {
+.top-section .top-section-wrapper .ua-flag-icon {
   background-image: url("./assets/img/emojione_flag-for-ukraine.png");
   height: 24px;
   width: 24px;
 }
-header .header-wrapper .header-about-text {
+.top-section .top-section-wrapper .top-text-content {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -29,6 +32,45 @@ header .header-wrapper .header-about-text {
   line-height: 20px;
   letter-spacing: 0.04em;
   color: #FCF7F0;
+}
+
+header .section-wrapper {
+  padding-top: 101px;
+  width: 1190px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+header .section-wrapper .header-img-wrapper {
+  width: 748px;
+  height: 393px;
+  padding-left: 10px;
+  position: relative;
+}
+header .section-wrapper .header-img-wrapper .game-moto-img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+header .section-wrapper .nav-bar {
+  padding-top: 20px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.nav-item {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 20px;
+  /* identical to box height, or 83% */
+  text-transform: uppercase;
+  color: #161717;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,22 @@
+.top-section{
+    background: black;
+    .top-section-wrapper{
+        padding: 11px 0;
+        @include common_flex(center,center);
+        gap:14px;
+        .ua-flag-icon{
+            background-image: url("./assets/img/emojione_flag-for-ukraine.png");
+            height: 24px;
+            width: 24px;
+        }
+        .top-text-content{
+            font-family: 'Raleway', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            letter-spacing: 0.04em;
+            color: #FCF7F0;
+        }
+    }
+}
