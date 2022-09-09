@@ -2,11 +2,31 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .section-wrapper {
   width: 1440px;
   margin: 0 auto;
+}
+
+.buy-button {
+  width: 325px;
+  height: 83px;
+  border-radius: 100px;
+  background-color: #181414;
+}
+
+.buy-link {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 120%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  text-decoration: none;
 }
 
 .top-section {
@@ -32,6 +52,17 @@
   line-height: 20px;
   letter-spacing: 0.04em;
   color: #FCF7F0;
+}
+
+.nav-item {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 20px;
+  /* identical to box height, or 83% */
+  text-transform: uppercase;
+  color: #161717;
 }
 
 header .section-wrapper {
@@ -62,14 +93,37 @@ header .section-wrapper .nav-bar {
   gap: 28px;
 }
 
-.nav-item {
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 40px;
+  padding-left: 125px;
+  padding-right: 45px;
+}
+.about-section .text-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: normal;
+  flex-direction: column;
+  gap: 20px;
+}
+.about-section .text-content h1 {
   font-family: "Raleway";
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 20px;
-  /* identical to box height, or 83% */
   text-transform: uppercase;
+  color: #F9AF3D;
+}
+.about-section .text-content .about-text {
+  width: 870px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 46px;
   color: #161717;
 }
 
