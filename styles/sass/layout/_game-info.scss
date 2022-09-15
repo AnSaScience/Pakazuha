@@ -1,0 +1,37 @@
+.game-concept{
+    background: #323233;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    .game-info-wrapper{
+        padding: 0 86px;
+        display: grid;
+        grid-template-columns:1fr 55px;
+        .info-title{
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 42px;
+            line-height: 48px;
+            color: #FFFFFF;
+        }
+        .game-info{
+            padding-top: 20px;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 180%;
+            color: #A5A5A5;
+        }
+    }
+}
+
+.hide{
+    transition: 1.3s;
+    height:auto;
+    display: none;
+}
+li{
+    margin-left: 50px;
+}

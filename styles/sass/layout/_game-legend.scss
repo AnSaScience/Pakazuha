@@ -1,0 +1,17 @@
+.game-legend{
+    margin-top: 97px;
+    padding-right: 44px;
+    background: #F9AF3D;
+    @include common_flex(center, center);
+    flex-direction: column;
+    gap:36px;
+        p{
+           width: 1086px;
+            font-family: 'Raleway';
+            font-style: italic;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 36px;
+            color: #181414; 
+        }
+}

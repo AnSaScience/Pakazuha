@@ -10,6 +10,22 @@
   margin: 0 auto;
 }
 
+html {
+  background: #E5E5E5;
+}
+
+.container-round-borders {
+  width: 1360px;
+  padding-top: 61px;
+  padding-bottom: 61px;
+  border-radius: 100px;
+  margin: 0 auto;
+}
+
+.game-info {
+  width: 1086px;
+}
+
 .buy-button {
   width: 325px;
   height: 83px;
@@ -27,6 +43,47 @@
   text-transform: capitalize;
   color: #FFFFFF;
   text-decoration: none;
+}
+
+.slider-button {
+  width: 55px;
+  height: 55px;
+  padding-top: 5px;
+  background-color: #F9AF3D;
+  border-radius: 27.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slider-button .arrow {
+  width: 1.25rem;
+  height: 1.25rem;
+  display: inline-block;
+  position: relative;
+  margin: 0 1rem;
+}
+.slider-button .arrow span {
+  top: 0.5rem;
+  position: absolute;
+  width: 0.75rem;
+  height: 0.1rem;
+  background-color: #efefef;
+  display: inline-block;
+  transition: all 0.2s ease;
+}
+.slider-button .arrow span:first-of-type {
+  left: 0;
+  transform: rotate(45deg);
+}
+.slider-button .arrow span:last-of-type {
+  right: 0;
+  transform: rotate(-45deg);
+}
+.slider-button .arrow.active span:first-of-type {
+  transform: rotate(-45deg);
+}
+.slider-button .arrow.active span:last-of-type {
+  transform: rotate(45deg);
 }
 
 .top-section {
@@ -125,6 +182,65 @@ header .section-wrapper .nav-bar {
   font-size: 42px;
   line-height: 46px;
   color: #161717;
+}
+
+.game-legend {
+  margin-top: 97px;
+  padding-right: 44px;
+  background: #F9AF3D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 36px;
+}
+.game-legend p {
+  width: 1086px;
+  font-family: "Raleway";
+  font-style: italic;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 36px;
+  color: #181414;
+}
+
+.game-concept {
+  background: #323233;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.game-concept .game-info-wrapper {
+  padding: 0 86px;
+  display: grid;
+  grid-template-columns: 1fr 55px;
+}
+.game-concept .game-info-wrapper .info-title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 48px;
+  color: #FFFFFF;
+}
+.game-concept .game-info-wrapper .game-info {
+  padding-top: 20px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 180%;
+  color: #A5A5A5;
+}
+
+.hide {
+  transition: 1.3s;
+  height: auto;
+  display: none;
+}
+
+li {
+  margin-left: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
