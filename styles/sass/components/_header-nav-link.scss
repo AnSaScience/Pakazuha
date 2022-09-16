@@ -1,11 +1,12 @@
-.nav-item{
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 20px;
-/* identical to box height, or 83% */
-text-transform: uppercase;
+.nav-link{
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 20px;
+    /* identical to box height, or 83% */
+    text-transform: uppercase;
 
-color: #161717;
+    color: #161717;
 }

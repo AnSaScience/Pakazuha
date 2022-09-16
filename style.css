@@ -116,7 +116,8 @@ html {
   color: #FCF7F0;
 }
 
-.nav-item {
+.nav-link {
+  text-decoration: none;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 500;
@@ -330,6 +331,7 @@ li {
 }
 .game-support .info-support {
   list-style: none;
+  padding-bottom: 60px;
 }
 
 /*# sourceMappingURL=style.css.map */
