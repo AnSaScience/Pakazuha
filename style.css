@@ -16,14 +16,19 @@ html {
 
 .container-round-borders {
   width: 1360px;
-  padding-top: 61px;
-  padding-bottom: 61px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   border-radius: 100px;
   margin: 0 auto;
 }
 
 .game-info {
   width: 1086px;
+}
+
+.content-container {
+  max-width: 1239px;
+  margin: 0 auto;
 }
 
 .buy-button {
@@ -247,6 +252,84 @@ li {
   padding-top: 127px;
   padding-left: 170px;
   padding: 127px 0px 127px 170px;
+}
+
+.game-support {
+  background-color: #181414;
+}
+.game-support .payment-annotation,
+.game-support .info-support {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.game-support .support-subtitle {
+  padding-top: 80px;
+}
+.game-support .payment-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: normal;
+  gap: 20px;
+  padding-top: 50px;
+}
+.game-support .payment-name {
+  padding-bottom: 10px;
+}
+.game-support .payment-content {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  padding: 30px 30px 56px;
+}
+.game-support .card-number,
+.game-support .cardholder-name {
+  max-width: 365px;
+}
+.game-support .support-title {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #F9AF3D;
+}
+.game-support .support-subtitle {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 48px;
+  color: #FFFFFF;
+}
+.game-support .support-text,
+.game-support .payment-annotation,
+.game-support .info-content {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 120%;
+  color: #A5A5A5;
+}
+.game-support .payment-name {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 120%;
+  color: #FFFFFF;
+}
+.game-support .card-number,
+.game-support .cardholder-name {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 120%;
+  color: #FFFFFF;
+}
+.game-support .info-support {
+  list-style: none;
 }
 
 /*# sourceMappingURL=style.css.map */

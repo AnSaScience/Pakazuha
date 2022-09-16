@@ -7,11 +7,15 @@ html{
 }
 .container-round-borders{
     width: 1360px;
-    padding-top:61px;
-    padding-bottom:61px;
+    padding-top:60px;
+    padding-bottom:60px;
     border-radius: 100px;
     margin: 0 auto;
 }
 .game-info{
     width: 1086px;
+}
+.content-container{
+    max-width: 1239px;
+    margin: 0 auto;
 }

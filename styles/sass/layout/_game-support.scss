@@ -1,0 +1,78 @@
+.game-support{
+    background-color: #181414;
+    //position
+    .payment-annotation,
+    .info-support{
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    .support-subtitle{
+        padding-top: 80px;
+    }
+    .payment-wrapper{
+        @include common_flex(space-between);
+        gap:20px;
+        padding-top: 50px;
+    }
+    .payment-name{
+        padding-bottom: 10px;
+    }
+    //position end
+    .payment-content{
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 30px;
+        padding: 30px 30px 56px;
+    }
+    .card-number,
+    .cardholder-name{
+        max-width:365px
+    }
+    .support-title{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 20px;
+        text-transform: uppercase;
+        color: #F9AF3D;
+    }
+    .support-subtitle{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 42px;
+        line-height: 48px;
+        color: #FFFFFF;
+    }
+    .support-text,
+    .payment-annotation,
+    .info-content{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 120%;
+        color: #A5A5A5;
+    }
+    .payment-name{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 120%;
+        color: #FFFFFF;
+    }
+    .card-number,
+    .cardholder-name{
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 120%;
+        color: #FFFFFF;
+    }
+    .info-support{
+        list-style: none;
+    }
+
+}
