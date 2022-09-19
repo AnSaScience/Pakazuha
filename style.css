@@ -5,6 +5,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .section-wrapper {
   width: 1440px;
   margin: 0 auto;
@@ -116,7 +120,9 @@ html {
   color: #FCF7F0;
 }
 
-.nav-link {
+.nav-item .nav-link {
+  padding: 7px 14px;
+  border-radius: 20px;
   text-decoration: none;
   font-family: "Raleway";
   font-style: normal;
@@ -126,6 +132,13 @@ html {
   /* identical to box height, or 83% */
   text-transform: uppercase;
   color: #161717;
+  transition: 0.3s;
+}
+.nav-item .nav-link:hover {
+  transition: 0.5s;
+  background-color: #F9AF3D;
+  color: #162717;
+  box-shadow: 5px 5px 5px grey;
 }
 
 header .section-wrapper {
@@ -153,7 +166,7 @@ header .section-wrapper .nav-bar {
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  gap: 28px;
+  gap: 17px;
 }
 
 .about-section {

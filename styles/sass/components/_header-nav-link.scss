@@ -1,4 +1,7 @@
+.nav-item{
 .nav-link{
+    padding: 7px 14px;
+    border-radius: 20px;
     text-decoration: none;
     font-family: 'Raleway';
     font-style: normal;
@@ -7,6 +10,12 @@
     line-height: 20px;
     /* identical to box height, or 83% */
     text-transform: uppercase;
-
     color: #161717;
-}
+    transition: 0.3s;
+    &:hover{
+        transition: 0.5s;
+        background-color: #F9AF3D;
+        color: #162717;
+        box-shadow: 5px 5px 5px grey;
+    }
+}}
