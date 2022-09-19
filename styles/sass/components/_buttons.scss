@@ -1,19 +1,23 @@
-.buy-button{
-    width: 325px;
-    height: 83px;
-    border-radius: 100px;  
-    background-color: #181414; 
-}
 .buy-link{
-     font-family: 'Poppins';
-     font-style: normal;
-     font-weight: 600;
-     font-size: 32px;
-     line-height: 120%;
-     text-align: center;
-     text-transform: capitalize;
-     color: #FFFFFF;
-     text-decoration: none;
+    padding: 24px 60px;
+    background-color: #181414; 
+    border-radius: 100px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: 0.3s;
+    &:hover{
+      transition: 0.5s;
+      color: #f8a324;
+      background-color: #000000;
+      box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.5);
+    }
     
 }
 

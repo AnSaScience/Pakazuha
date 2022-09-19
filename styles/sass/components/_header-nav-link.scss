@@ -11,11 +11,11 @@
     /* identical to box height, or 83% */
     text-transform: uppercase;
     color: #161717;
-    transition: 0.3s;
+    transition: 0.1s;
     &:hover{
         transition: 0.5s;
         background-color: #F9AF3D;
         color: #162717;
-        box-shadow: 5px 5px 5px grey;
+        box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.5);
     }
 }}

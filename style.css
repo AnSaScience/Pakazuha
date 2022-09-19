@@ -35,14 +35,10 @@ html {
   margin: 0 auto;
 }
 
-.buy-button {
-  width: 325px;
-  height: 83px;
-  border-radius: 100px;
-  background-color: #181414;
-}
-
 .buy-link {
+  padding: 24px 60px;
+  background-color: #181414;
+  border-radius: 100px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
@@ -52,6 +48,13 @@ html {
   text-transform: capitalize;
   color: #FFFFFF;
   text-decoration: none;
+  transition: 0.3s;
+}
+.buy-link:hover {
+  transition: 0.5s;
+  color: #f8a324;
+  background-color: #000000;
+  box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.5);
 }
 
 .slider-button {
@@ -132,13 +135,13 @@ html {
   /* identical to box height, or 83% */
   text-transform: uppercase;
   color: #161717;
-  transition: 0.3s;
+  transition: 0.1s;
 }
 .nav-item .nav-link:hover {
   transition: 0.5s;
   background-color: #F9AF3D;
   color: #162717;
-  box-shadow: 5px 5px 5px grey;
+  box-shadow: 5px 5px 5px rgba(128, 128, 128, 0.5);
 }
 
 header .section-wrapper {
