@@ -11,7 +11,7 @@
     text-transform: capitalize;
     color: #FFFFFF;
     text-decoration: none;
-    transition: 0.3s;
+    transition: 0.1s ease-in;
     &:hover{
       transition: 0.5s;
       color: #f8a324;
@@ -30,6 +30,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    &:hover{
+      transition: 0.3s;
+      .arrow span{
+         background-color: #323233;
+      }
+    }
     .arrow {
         width: 1.25rem;
         height: 1.25rem;
@@ -44,7 +50,7 @@
         height: 0.1rem;
         background-color: #efefef;
         display: inline-block;
-        transition: all 0.2s ease;
+        transition: all 0.2s ease-in;
       }
       .arrow span:first-of-type {
         left: 0;

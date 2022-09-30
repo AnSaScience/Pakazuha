@@ -1,6 +1,7 @@
 .top-section{
     background: black;
     .top-section-wrapper{
+        background: black;
         padding: 11px 0;
         @include common_flex(center,center);
         gap:14px;

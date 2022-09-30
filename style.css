@@ -48,7 +48,7 @@ html {
   text-transform: capitalize;
   color: #FFFFFF;
   text-decoration: none;
-  transition: 0.3s;
+  transition: 0.1s ease-in;
 }
 .buy-link:hover {
   transition: 0.5s;
@@ -67,6 +67,12 @@ html {
   justify-content: center;
   align-items: center;
 }
+.slider-button:hover {
+  transition: 0.3s;
+}
+.slider-button:hover .arrow span {
+  background-color: #323233;
+}
 .slider-button .arrow {
   width: 1.25rem;
   height: 1.25rem;
@@ -81,7 +87,7 @@ html {
   height: 0.1rem;
   background-color: #efefef;
   display: inline-block;
-  transition: all 0.2s ease;
+  transition: all 0.2s ease-in;
 }
 .slider-button .arrow span:first-of-type {
   left: 0;
@@ -102,6 +108,7 @@ html {
   background: black;
 }
 .top-section .top-section-wrapper {
+  background: black;
   padding: 11px 0;
   display: flex;
   justify-content: center;
