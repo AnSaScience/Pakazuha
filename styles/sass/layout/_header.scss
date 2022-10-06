@@ -1,14 +1,21 @@
 header{
     .section-wrapper{
         padding-top: 101px;
-        width: 1190px;
+        max-width: 1190px;
         @include common_flex(space-between,flex-start);
     .header-img-wrapper{
-        width: 748px;
+        display: flex;
+        flex-grow: 1;
+        max-width: 748px;
         height: 393px;
         padding-left: 10px;
         position: relative;
-
+        .game-logo{
+            align-self: flex-start;
+            width: 100%;
+            max-width: 528px;
+            
+        }
         .game-moto-img{
             position: absolute;
             bottom: 0;
@@ -22,6 +29,9 @@ header{
         @include common_flex(center,flex-start);
         flex-direction: column;
         gap: 17px;
+        li{
+            min-width: 300px;
+        }
     }
 }
 }

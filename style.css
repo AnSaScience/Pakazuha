@@ -10,7 +10,7 @@ html {
 }
 
 .section-wrapper {
-  width: 1440px;
+  max-width: 1440px;
   margin: 0 auto;
 }
 
@@ -153,16 +153,23 @@ html {
 
 header .section-wrapper {
   padding-top: 101px;
-  width: 1190px;
+  max-width: 1190px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
 header .section-wrapper .header-img-wrapper {
-  width: 748px;
+  display: flex;
+  flex-grow: 1;
+  max-width: 748px;
   height: 393px;
   padding-left: 10px;
   position: relative;
+}
+header .section-wrapper .header-img-wrapper .game-logo {
+  align-self: flex-start;
+  width: 100%;
+  max-width: 528px;
 }
 header .section-wrapper .header-img-wrapper .game-moto-img {
   position: absolute;
@@ -177,6 +184,9 @@ header .section-wrapper .nav-bar {
   align-items: flex-start;
   flex-direction: column;
   gap: 17px;
+}
+header .section-wrapper .nav-bar li {
+  min-width: 300px;
 }
 
 .about-section {
