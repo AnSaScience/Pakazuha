@@ -461,4 +461,69 @@ li {
   margin-left: 20px;
 }
 
+footer {
+  background-color: #181414;
+}
+footer .footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+footer .footer-wrapper .mnr-web,
+footer .footer-wrapper .copyright {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 25px;
+  text-align: right;
+  letter-spacing: 0.04em;
+  color: #FCF7F0;
+}
+footer .footer-wrapper .mnr-web {
+  text-decoration: none;
+  transition: 0.5s;
+}
+footer .footer-wrapper .mnr-web:hover {
+  transition: 0.5s;
+  color: #f8a324;
+}
+footer .footer-wrapper .copyright {
+  max-width: 188px;
+  flex-grow: 1;
+  text-align: left;
+}
+footer .footer-wrapper .social-media {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+footer .footer-wrapper .social-media .social-item {
+  margin: 0;
+}
+footer .footer-wrapper .social-media .social-link .social-logo {
+  width: 35px;
+  height: 35px;
+  background-size: contain;
+  transition: 0.5s;
+}
+footer .footer-wrapper .social-media .social-link .social-logo:hover {
+  transition: 0.5s;
+  filter: invert(57%) sepia(85%) saturate(874%) hue-rotate(3deg) brightness(102%) contrast(100%);
+}
+footer .footer-wrapper .social-media .social-link .facebook-logo {
+  background-image: url(./assets/img/Facebook.svg);
+}
+footer .footer-wrapper .social-media .social-link .instagram-logo {
+  background-image: url(./assets/img/Instagram.svg);
+}
+footer .footer-wrapper .social-media .social-link .twitter-logo {
+  background-image: url(./assets/img/Twitter.svg);
+}
+footer .footer-wrapper .social-media .social-link .youtube-logo {
+  background-image: url(./assets/img/Youtube.svg);
+}
+
 /*# sourceMappingURL=style.css.map */

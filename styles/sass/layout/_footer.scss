@@ -1,0 +1,68 @@
+footer{
+    background-color: #181414;
+    .footer-wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:20px 60px;
+        .mnr-web,
+        .copyright{
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 25px;
+            line-height: 25px;
+            text-align: right;
+            letter-spacing: 0.04em;
+            color: #FCF7F0;
+        }
+        .mnr-web{
+            text-decoration: none;
+            transition: 0.5s;
+            &:hover{
+                transition: 0.5s;
+                color: #f8a324;
+              }
+        }
+        .copyright{
+            max-width: 188px;
+            flex-grow: 1;
+            text-align: left;
+        }
+        .social-media{
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap:16px;
+            .social-item {
+                margin: 0;
+            }
+            .social-link{
+                .social-logo{
+                    width: 35px;
+                    height: 35px;
+                    background-size: contain;
+                    transition: 0.5s;
+                    &:hover{
+                        transition: 0.5s;
+                        filter: invert(57%) sepia(85%) saturate(874%) hue-rotate(3deg) brightness(102%) contrast(100%);
+
+              }
+                }
+                .facebook-logo{
+                    background-image: url(./assets/img/Facebook.svg);
+                }
+                .instagram-logo{
+                    background-image: url(./assets/img/Instagram.svg);
+                }
+                .twitter-logo{
+                    background-image: url(./assets/img/Twitter.svg);
+                }
+                .youtube-logo{
+                    background-image: url(./assets/img/Youtube.svg);
+                }
+            }
+        }
+
+    }
+}
