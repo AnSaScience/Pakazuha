@@ -1,0 +1,94 @@
+.mnr-about{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    .images-wrapper{
+        display: grid;
+        width: 462px;
+        column-gap: 20px;
+        grid-template-columns: 1fr,auto,1fr;
+        grid-template-rows: 360px 115px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+
+        .mnr-image-one{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end:2;
+            align-self: center;
+            background-image: url('https://static.tildacdn.com/tild3666-3066-4566-b263-303937373733/photo_2021-07-23_13-.jpg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 330px;
+            width: auto;
+        }
+        .mnr-image-two{
+            align-self: center;
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end:2;
+            background-image: url('https://static.tildacdn.com/tild6339-3235-4936-b334-663163396363/MNR_LOGO_yellow_blue.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 208px;
+            width: auto;
+        }
+        .mnr-image-three{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            grid-row-start: 1;
+            grid-row-end:3;
+            justify-self: center;
+            align-self: flex-end;
+            background-image: url('https://static.tildacdn.com/tild3965-3262-4635-a665-396666326532/_KOT8386.JPG');
+            background-size: contain;
+            background-repeat: no-repeat;
+            height: 174px;
+            width: 278px;
+        }
+    }
+    .content-wrapper{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        max-width: 650px;
+        .mnr-title{
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 52px;
+            line-height: 58px;
+            }
+        .mnr-text-content{
+            padding-top: 34px;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 120%;
+    }
+        .mnr-tasks-title{
+            padding-top: 30px;
+            padding-bottom: 10px;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 30px;
+        }
+        .mnr-tasks-list{
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 120%;
+            .mnr-task{
+                margin-left: 20px;
+            }
+        }
+    }
+}
